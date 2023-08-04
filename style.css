@@ -1,0 +1,150 @@
+/* 
+1-Debes crear todo el código CSS en una hoja de estilos externa
+
+2-El código CSS debe contener al menos 3 selectores
+que hagan referencia a clases
+
+3-El código CSS debe contener al menos 2 selectores 
+que hagan referencia a elementos de la página a través de su id
+
+4-La página debe contener al menos una imagen*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+    color: #ABABAB;
+}
+
+/*Menu Horizontal*/
+
+.menu {
+    background-color: #2f4f4f;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px; 
+    background-color: #2f4f4f;      
+}
+.menu a:hover{
+    background-color: #000;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center; 
+    border-right: 1px solid #000;          
+}
+
+/*Formato imagenes generales*/
+#feliz{
+    border-radius: 50%;
+    float: right;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.primero {
+    padding: 40px;
+}
+
+#workip{    
+    height:200px;  
+    filter: grayscale(100);    
+}
+
+/*Redes sociaes*/
+
+.redesimg{
+    list-style: none;
+}
+.redesimg li {
+    display: inline-block;
+}
+.redesimg img{
+    width: 50px;
+    height: 50px; 
+    padding: 20px;    
+}
+
+/*Formato texto*/
+h2 {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 10px;
+    letter-spacing: 5px; 
+    border-radius: 10px;   
+}
+
+/*Formato Banner*/
+.baner{
+    width: auto;
+    height: 300px;
+    position: relative;
+}
+.nombre{
+  bottom: 10px;
+  left: 16px;
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  
+}
+#banner{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*Tabla de educacion*/
+table {
+       
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+tr.titulo_tabla{
+    background-color: #333333;
+    height: 50px;    
+}
+
+/*Contacto*/
+
+form{
+    text-align: left;
+}
+form div{
+    padding: 10px;
+}
+textarea{
+  height: 150px;
+  width: 600px;
+  padding: 12px 20px;  
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: #333333;
+  resize: none;
+}
+input{    
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: #333333;
+  width: 650px; 
+}
+label{
+    padding: 20px;    
+}
